@@ -274,7 +274,7 @@ header {
 /* ============= Popular Courses ============== */
 
 .courses {
-    margin: 10rem;
+    margin: 2rem;
 }
 
 .courses h2 {
@@ -364,6 +364,10 @@ header {
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
+}
+
+.testimonials_container h2 {
+    padding: 2rem;
 }
 
 .testimonial {
