@@ -166,10 +166,7 @@
     /* ======== Responsive styles for mobile phone ========== */
     @media screen and (max-width: 600px) {
 
-        body {
-            background: red;
-        }
-
+  
         .achievements_cards {
             grid-template-columns: 1fr 1fr;
             gap: 0.7rem;
