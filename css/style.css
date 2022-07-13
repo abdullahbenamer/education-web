@@ -10,8 +10,8 @@
 
 :root {
 
-    --color-primary: #126c32;
-    --color-success: #fcab10;
+    --color-primary: #1e645a;
+    --color-success: #d7cd13;
     --color-warning: #2B9EB3;
     --color-danger: #f8333c;
     --color-danger-variant: rgba(247,88,66,0.4);
@@ -517,11 +517,11 @@ footer {
 .nav_menu li {
     width: 100%;
     height: 5.8rem;
-    animation: animateNavItems 400ms linear forwards;
-    transform-origin: top right;
+    animation: animateNavItems 400ms  linear forwards;
+    /* transform-origin: top right; */
     opacity: 0;
 }
-
+/* 
 .nav_menu li:nth-child(2) {
     animation-delay: 200ms;
 }
@@ -532,9 +532,9 @@ footer {
 
 .nav_menu li:nth-child(4) {
     animation-delay: 600ms;
-}
+} */
 
-
+ 
 @keyframes animateNavItems {
     0% {
         transform: rotateZ(-90deg);
@@ -543,7 +543,7 @@ footer {
         transform: rotateZ(0deg);
         opacity: 1;
 
-    }
+    } 
     
 }
 .nav_menu li a {
